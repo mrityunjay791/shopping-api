@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Abhaya Libre';
+    font-size: 22px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 100px 100px;
+    box-sizing: border-box;
+    transition: 0.3s;
+
+}
+
+nav.black {
+    background: rgba(0,0,0,0.8);
+    height: 100px;
+    padding: 10px 100px;
+}
+
+nav .logo {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    transition: 0.3s;
+    font-size: 24px;
+}
+
+nav.black .logo {
+    color: #fff;
+}
+
+nav ui {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    display: flex;
+}
+
+nav ui li {
+    list-style: none;
+}
+
+nav ui li a {
+    line-height: 80px;
+    color: #151515;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+nav.black ui li a {
+    color: #fff;
+} 
+
+nav.black ui li a:focus {
+    outline: none;
+}
+
+nav ui li a.active {
+    background: #E2472f;
+    color: #fff;
+    border-radius: 6px;
+}
+
+section.sec1 {
+    width: 100%;
+    height: 100vh;
+    background: url(../image/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section.sec2 {
+    width: 100%;
+    height: 100vh;
+    background: url(../image/architecture.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section.sec3 {
+    width: 100%;
+    height: 100vh;
+    background: url(../image/fantasy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section.sec4 {
+    width: 100%;
+    height: 100vh;
+    background: url(../image/rail-line.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.content p {
+    line-height: 30px;
+    width: 1200px;
+    text-align: justify;
+    margin: 20px auto;
+}
